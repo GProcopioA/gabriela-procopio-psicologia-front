@@ -1,0 +1,35 @@
+body {
+    background-color: #AC6563;
+  }
+
+  /* #8b4a42 -> cor das escritas escuras*/
+  /* #eddede -> cor das letras*/
+  /* #582721 -> cor dos botoes*/
+  /* #AC6563 -> cor principal */
+
+  .cor_principal {
+    color: #AC6563;
+  }
+  .cor_dos_botoes {
+    color: #582721
+  }
+  .cor_letras {
+    color: #eddede;
+  }
+  .cor_escrita_secundaria {
+    color: #8b4a42;
+  }
+
+  .button2 {
+    background-color: #582721; 
+  }
+
+  .button1 {
+    background-color: #582721; 
+    color: #eddede;
+  }
+  
+  .button1:hover {
+    background-color: #eddede;
+    color: #582721;
+  }
