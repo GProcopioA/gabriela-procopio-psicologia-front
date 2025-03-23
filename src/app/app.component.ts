@@ -22,7 +22,7 @@ export class AppComponent {
 
   agendar(){
 
-    this.router.navigate([])
+    this.router.navigate(['/agendar'])
   }
 }
 
