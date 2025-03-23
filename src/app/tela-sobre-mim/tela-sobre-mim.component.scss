@@ -1,0 +1,47 @@
+body {
+    background-color: #eddede;
+  }
+
+  /* #8b4a42 -> cor das escritas escuras*/
+  /* #eddede -> cor das letras*/
+  /* #582721 -> cor dos botoes*/
+  /* #AC6563 -> cor principal */
+  .image {
+    width: 100%;
+    height: 620px;
+    object-fit: cover;
+  }
+  
+  .logo {
+    width: 300px;
+    height: 60px;
+  }
+
+ 
+
+  .cor_principal {
+    color: #582721;
+  }
+  .cor_dos_botoes {
+    color: #582721
+  }
+  .cor_letras {
+    color: #582721;
+  }
+  .cor_escrita_secundaria {
+    color: #8b4a42;
+  }
+
+  .button2 {
+    background-color: #582721; 
+  }
+
+  .button1 {
+    background-color: #582721; 
+    color: #eddede;
+  }
+  
+  .button1:hover {
+    background-color: #eddede;
+    color: #582721;
+  }
