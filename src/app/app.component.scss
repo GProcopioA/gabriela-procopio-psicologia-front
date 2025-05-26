@@ -1,0 +1,96 @@
+body {
+    background-color: #AC6563;
+}
+
+.logo-and-buttons {
+    display: flex; /* Adiciona flexbox para alinhar logo e botões */
+    flex-direction: column; /* Alinha logo e botões em coluna em telas menores */
+    align-items: center; /* Centraliza logo e botões horizontalmente */
+  }
+
+  .frase-psicologia1 {
+    color: #eddede; /* Define a cor da frase como branco */
+    font-size: 22px; /* Ajuste o tamanho da fonte conforme necessário */
+    // margin-bottom: 20px; /* Adiciona espaço abaixo da frase */
+    // padding: 0 10px; /* Adiciona espaçamento horizontal para a frase */
+    // text-align: center; /* Centraliza o texto da frase */
+    //font-family: 'Nome da Fonte', sans-serif; /* Adicione esta linha */
+  }
+  .frase-psicologia2 {
+    color: #582721; /* Define a cor da frase como branco */
+    font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
+    // margin-bottom: 20px; /* Adiciona espaço abaixo da frase */
+    // padding: 0 10px; /* Adiciona espaçamento horizontal para a frase */
+    // text-align: center; /* Centraliza o texto da frase */
+    //font-family: 'Nome da Fonte', sans-serif; /* Adicione esta linha */
+  }
+  .frase-psicologia3 {
+    color: #582721; /* Define a cor da frase como branco */
+    font-size: 22px; /* Ajuste o tamanho da fonte conforme necessário */
+    // margin-bottom: 20px; /* Adiciona espaço abaixo da frase */
+    // padding: 0 10px; /* Adiciona espaçamento horizontal para a frase */
+    // text-align: center; /* Centraliza o texto da frase */
+    //font-family: 'Nome da Fonte', sans-serif; /* Adicione esta linha */
+  }
+
+.posicao_logo {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+  }
+.posicao_frase{
+    text-align: center;
+    height: 200px;
+}
+  
+//   .content {
+//     text-align: center;
+//   }
+  
+  .button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    background-color: #eddede;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #582721;
+    font-size: 16px;
+  }
+  
+  .logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    //filter: invert(100%); /* Torna a imagem branca */
+    background-color: #eddede;
+  }
+
+  .logo-psicologia {
+    width: 300px;
+    height: 80px;
+  }
+  
+  @media (min-width: 768px) {
+    .button-group {
+      flex-direction: row;
+    }
+  }
+
+//   .cor_dos_botoes {
+//     color: #582721
+//   }
+//   .cor_letras {
+//     color: #eddede;
+//   }
+//   .cor_escrita_secundaria {
+//     color: #582721;
+//   }
