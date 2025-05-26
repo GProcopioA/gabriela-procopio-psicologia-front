@@ -6,11 +6,11 @@ import { TelaPrincipalComponent } from './tela-principal/tela-principal.componen
 import { TelaSobreMimComponent } from './tela-sobre-mim/tela-sobre-mim.component';
 
 export const routes: Routes = [
-    { path: 'home', component: TelaPrincipalComponent },
-    { path: 'SobreMim', component: TelaSobreMimComponent },
-    { path: 'Agendar', component: TelaAgendarComponent },
-    { path: 'Abordagem', component: TelaAbordagemComponent },
-    { path: 'FAQ', component: TelaFaqComponent },
-    { path: '', redirectTo: '/home', pathMatch: 'full' },
-    { path: '**', redirectTo: '/home' }
+    // { path: 'home', component: TelaPrincipalComponent },
+    // { path: 'SobreMim', component: TelaSobreMimComponent },
+    // { path: 'Agendar', component: TelaAgendarComponent },
+    // { path: 'Abordagem', component: TelaAbordagemComponent },
+    // { path: 'FAQ', component: TelaFaqComponent },
+    // { path: '', redirectTo: '/home', pathMatch: 'full' },
+    // { path: '**', redirectTo: '/home' }
   ];

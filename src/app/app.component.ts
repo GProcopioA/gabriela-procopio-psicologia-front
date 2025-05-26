@@ -10,7 +10,7 @@ import { TelaSobreMimComponent } from './tela-sobre-mim/tela-sobre-mim.component
   standalone: true,
   imports: [RouterOutlet, TelaPrincipalComponent, TelaSobreMimComponent, TelaFaqComponent, TelaAgendarComponent, TelaAbordagemComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.scss'
 })
 export class AppComponent {
   title = 'gabi-psicologia';
